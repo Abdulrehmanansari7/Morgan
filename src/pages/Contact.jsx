@@ -3,6 +3,7 @@ import bg from "../assets/bg-image.jpg";
 import building from "../assets/building.png"
 import envelope from "../assets/envelope.png"
 import phone from "../assets/phone.png"
+import Footer from "../components/Footer.jsx"
 
 function Contact() {
   return (
@@ -74,7 +75,9 @@ function Contact() {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
+    
   );
 }
 
